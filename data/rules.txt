@@ -1,0 +1,42 @@
+@prefix ns: <http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>. 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+[rule1: (?cont rdf:type ns:Contexte)  (?cont ns:Hour ?h) greaterThan(?h, 4) lessThan(?h,12) ->  (?cont  rdf:type ns:Matin)]
+
+[rule2: (?cont rdf:type ns:Contexte)  (?cont ns:Hour ?h) greaterThan(?h, 12) lessThan(?h,15) ->  (?cont rdf:type ns:Midi)]
+
+[rule3: (?cont rdf:type ns:Contexte)  (?cont ns:Hour ?h) greaterThan(?h, 15) lessThan(?h,19) ->  (?cont rdf:type ns:Aprem)]
+
+[rule4: (?cont rdf:type ns:Contexte)  (?cont ns:Hour ?h) greaterThan(?h, 19) lessThan(?h,22) ->  (?cont rdf:type ns:Soir)]
+
+[rule5: (?cont rdf:type ns:Contexte)  (?cont ns:Hour ?h) greaterThan(?h, 22)  ->  (?cont rdf:type ns:Nuit)]
+
+[rule6: (?cont rdf:type ns:Contexte)  (?cont ns:Saison ?s) greaterThan(?s, 3) lessThan(?s,5) ->  (?cont rdf:type ns:Printemps)]
+
+[rule7: (?cont rdf:type ns:Contexte)  (?cont ns:Saison ?s) greaterThan(?s, 6) lessThan(?s,8) ->  (?cont rdf:type ns:Ete)]
+
+[rule8: (?cont rdf:type ns:Contexte)  (?cont ns:Saison ?s) greaterThan(?s, 9) lessThan(?s,11) ->  (?cont rdf:type ns:Automne)]
+
+[rule9: (?cont rdf:type ns:Contexte)  (?cont ns:Saison ?s) greaterThan(?s, 1) lessThan(?s,2) ->  (?cont rdf:type ns:Hiver)]
+
+[rule10: (?p rdf:type ns:Appartement) (?p ns:ComporteCapteurHumidite ?c) (?c ns:humidite ?humidite) greaterThan(?humidite, 70) -> (?p rdf:type ns:Humide)]
+
+[rule11: (?p rdf:type ns:Appartement) (?p ns:ComporteCapteurHumidite ?c) (?c ns:humidite ?humidite) lessThan(?humidite, 30) -> (?p rdf:type ns:Sec)]
+
+[rule12: (?p rdf:type ns:Appartement) (?p ns:ComporteCapteurTemperature ?c) (?c ns:temperature ?temp) greaterThan(?temp, 25) -> (?p rdf:type ns:Chaud)]
+
+[rule13: (?p rdf:type ns:Appartement) (?p ns:ComporteCapteurTemperature ?c) (?c ns:temperature ?temp) greaterThan(?temp, 10) lessThan(?temp, 25) -> (?p rdf:type ns:Normal_temp)]
+
+[rule14: (?p rdf:type ns:Appartement) (?p ns:ComporteCapteurTemperature ?c) (?c ns:temperature ?temp) lessThan(?temp, 10) -> (?p rdf:type ns:Froid)]
+
+[rule15: (?p rdf:type ns:Appartement) (?p ns:ComporteCapteurHumidite ?c) (?c ns:humidite ?humidite) lessThan(?humidite, 40) -> (?p rdf:type ns:Sec)]
+
+[rule16: (?p rdf:type ns:Appartement) (?p ns:ComporteCapteurHumidite ?c) (?c ns:humidite ?humidite) greaterThan(?humidite, 30) lessThan(?humidite,65) -> (?p rdf:type ns:Normal)]
+
+[rule17: (?p rdf:type ns:Appartement) (?p ns:ComporteCapteurLumiere ?c) (?c ns:luminosite ?lum) greaterThan(?lum, 500) -> (?p rdf:type ns:Lumineux)]
+
+[rule18: (?p rdf:type ns:Appartement) (?p ns:ComporteCapteurLumiere ?c) (?c ns:luminosite ?lum) greaterThan(?lum, 100) lessThan(?lum, 100) -> (?p rdf:type ns:Normal_lum)]
+
+[rule19: (?p rdf:type ns:Appartement) (?p ns:ComporteCapteurLumiere ?c) (?c ns:luminosite ?lum) lessThan(?lum, 100) -> (?p rdf:type ns:Obscure)]

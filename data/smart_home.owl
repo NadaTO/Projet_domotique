@@ -1,0 +1,1027 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Allumer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Allumer">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauffage"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Hifi"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumiere"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#TV"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauffage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Hifi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumiere"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#TV"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#AugmenterLuminosite -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#AugmenterLuminosite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumiere"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumiere"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#AugmenterTemperature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#AugmenterTemperature">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauffage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauffage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#AugmenterVolume -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#AugmenterVolume">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Hifi"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#TV"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Hifi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#TV"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#ComporteCapteur -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#ComporteCapteur">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Appartement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Capteur"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#ComporteCapteurHumidite -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#ComporteCapteurHumidite">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#ComporteCapteur"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Appartement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurHumidite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#ComporteCapteurLumiere -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#ComporteCapteurLumiere">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#ComporteCapteur"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Appartement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurLuminosite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#ComporteCapteurTemperature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#ComporteCapteurTemperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#ComporteCapteur"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Appartement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurTemperature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#DiminuerLuminosite -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#DiminuerLuminosite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumiere"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumiere"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#DiminuerTemperature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#DiminuerTemperature">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauffage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauffage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#DiminuerVolume -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#DiminuerVolume">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Hifi"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#TV"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Hifi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#TV"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Eteindre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Eteindre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauffage"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Hifi"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumiere"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#TV"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauffage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Hifi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumiere"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#TV"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Fermer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Fermer">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Porte"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Volet"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Porte"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Volet"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Ouvrir -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Ouvrir">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Porte"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Volet"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Porte"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Volet"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Appartement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Ressource"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Porte"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Volet"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Porte"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Volet"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Hour -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Hour">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Contexte"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Month -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Month">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Contexte"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Saison -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Saison">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Contexte"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#humidite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#humidite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurHumidite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#luminosite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#luminosite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurLuminosite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Appartement"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#temperature -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#temperature">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurTemperature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#ALarme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#ALarme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Ressource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Appartement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Appartement">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumiere"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Capteur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Capteur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Ressource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurHumidite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurHumidite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Capteur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurLuminosite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurLuminosite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Capteur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurTemperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurTemperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Capteur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chambre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chambre">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauffage"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Porte"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Volet"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Appartement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chaud -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chaud">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Contexte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauffage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauffage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Ressource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Contexte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Contexte"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Cuisine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Cuisine">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#ALarme"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Capteur"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauffage"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Volet"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Porte"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Appartement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Entree -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Entree">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Porte"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Appartement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Froid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Froid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Contexte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Hifi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Hifi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Ressource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Humide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Humide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Contexte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumiere -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumiere">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Ressource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumineux -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumineux">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Contexte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Matin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Matin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Contexte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Obscure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Obscure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Contexte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Porte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Porte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Ressource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Ressource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Ressource"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#SalleDeBain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#SalleDeBain">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Capteur"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauffage"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Appartement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Salon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Salon">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Capteur"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauffage"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Hifi"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Porte"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#TV"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Telephone"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#estComposeDe"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Volet"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Appartement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Sec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Sec">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Contexte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Soir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Soir">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Contexte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#TV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#TV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Ressource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Telephone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Telephone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Ressource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Volet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Volet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Ressource"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#A1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#A1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#ALarme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Appartement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Appartement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Appartement"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#bain"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#chambre"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#cuisine"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#entree"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#salon"/>
+        <name>Appartement</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurLuminosite"/>
+        <luminosite rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</luminosite>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurHumidite"/>
+        <humidite rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</humidite>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurHumidite"/>
+        <humidite rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</humidite>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurLuminosite"/>
+        <luminosite rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">400</luminosite>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurHumidite"/>
+        <humidite rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</humidite>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurTemperature"/>
+        <temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</temperature>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurLuminosite"/>
+        <luminosite rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</luminosite>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurLuminosite"/>
+        <luminosite rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">550</luminosite>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurHumidite"/>
+        <humidite rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</humidite>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurTemperature"/>
+        <temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</temperature>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurTemperature"/>
+        <temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</temperature>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauf1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauf1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauffage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauf2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauf2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauffage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauf3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauf3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauffage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#H1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#H1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Hifi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#L1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#L1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumiere"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#L2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#L2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumiere"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#L3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#L3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumiere"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#L4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#L4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumiere"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#L5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#L5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumiere"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#P1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#P1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Porte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#P2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#P2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Porte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#P3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#P3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Porte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#P4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#P4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Porte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#T1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#T1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Telephone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#TV1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#TV1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#TV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#V1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#V1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Volet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#V2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#V2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Volet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#V3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#V3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Volet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#bain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#bain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#SalleDeBain"/>
+        <name>salle de bain</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#c8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#c8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#CapteurTemperature"/>
+        <temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</temperature>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#chambre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#chambre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chambre"/>
+        <ComporteCapteurHumidite rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C2"/>
+        <ComporteCapteurLumiere rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C1"/>
+        <ComporteCapteurTemperature rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C3"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauf1"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#L1"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#P1"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#V1"/>
+        <name>Chambre</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#contexte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#contexte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Contexte"/>
+        <Hour rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</Hour>
+        <Month rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</Month>
+        <Saison rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</Saison>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#cuisine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#cuisine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Salon"/>
+        <ComporteCapteurHumidite rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C6"/>
+        <ComporteCapteurLumiere rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C4"/>
+        <ComporteCapteurTemperature rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C7"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#A1"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauf2"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#P2"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#V2"/>
+        <name>cuisine</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#entree -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#entree">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Entree"/>
+        <ComporteCapteurHumidite rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C10"/>
+        <ComporteCapteurLumiere rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C5"/>
+        <ComporteCapteurTemperature rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#c8"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#L5"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#P4"/>
+        <name>entree</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#salon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#salon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Salon"/>
+        <ComporteCapteur rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C11"/>
+        <ComporteCapteur rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C12"/>
+        <ComporteCapteurTemperature rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#C9"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauf3"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#H1"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#P3"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#T1"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#TV1"/>
+        <estComposeDe rdf:resource="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#V3"/>
+        <name>salon</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#ALarme"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Capteur"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Chauffage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Hifi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Lumiere"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Porte"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#TV"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Telephone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#Volet"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

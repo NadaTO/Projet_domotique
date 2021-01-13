@@ -1,0 +1,16 @@
+PREFIX ns: <http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX tg:<http://www.turnguard.com/functions#>
+
+
+SELECT  ?hour ?month
+WHERE {
+	?con rdf:type ns:Contexte.
+	?con ns:Month ?month .
+    OPTIONAL{
+    ?con ns:Hour ?hour .
+    }
+}

@@ -1,0 +1,14 @@
+PREFIX ns: <http://www.semanticweb.org/nada/ontologies/2019/11/untitled-ontology-10#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX tg:<http://www.turnguard.com/functions#>
+
+
+SELECT ?nom
+WHERE {
+	 ?p rdf:type ns:Appartement .
+    ?p ns:name ?nom  .
+	?s rdf:type ns:Matin .
+}
